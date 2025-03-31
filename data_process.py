@@ -1,5 +1,10 @@
 import pandas as pd
 import re
+import spacy
+
+
+nlp = spacy.load("en_core_web_sm")
+
 
 def extract_yoda_lines(file_path):
     df = pd.read_csv(file_path)
@@ -16,6 +21,14 @@ def clean_text(txt):
     txt = re.sub(r"[^ -~]", "", txt)            # remove non-ASCII
     txt = txt.lower()                           # unify casing
     return txt
+
+def split_into_sentences(text: str) -> list:
+    """
+    Uses spaCy to segment the text into individual sentences.
+    """
+    doc = nlp(text)
+    return [sent.text.strip() for sent in doc.sents if sent.text.strip()]
+
 
 # Apply cleaning
 

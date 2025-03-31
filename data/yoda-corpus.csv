@@ -366,7 +366,7 @@ movie,scene,line,character,text,slug,component
 6,48,371,YODA		 (gathering all his strength),No. Unfortunate that you rushed to face him... that incomplete was your ,50   INT YODA'S HOUSE,character
 6,48,372,narrator,training. Not ready for the burden were you.,50   INT YODA'S HOUSE,action
 6,48,373,LUKE,"Well, I'm sorry.",50   INT YODA'S HOUSE,character
-6,48,374,YODA,"Remember, a Jedi's strength flows from the Force.  But beware.  Anger, ",50   INT YODA'S HOUSE,character
+6,48,374,YODA,"Remember, a Jedi's strength flows from the Force.  But beware,  Anger.",50   INT YODA'S HOUSE,character
 6,48,375,narrator,"fear, aggression. The dark side are they.  Once you start down the dark path, forever  will it dominate your destiny. He beckons the young Jedi closer to him.",50   INT YODA'S HOUSE,action
 6,48,376,YODA,"Luke...Luke...Do not...Do not underestimate the powers of the Emperor, ",50   INT YODA'S HOUSE,character
 6,48,377,narrator,"or suffer your father's fate, you will. Luke, when gone am I (cough), the last of the Jedi will you be. Luke, the Force runs strong in your  family. Pass on what you have learned, Luke...  (with great effort) There is...another...Sky...Sky...walker. He catches his breath. A shiver runs through the ancient green  creature, and he dies. Luke stares at his dead master as he disappears  in front of his eyes.",50   INT YODA'S HOUSE,action
