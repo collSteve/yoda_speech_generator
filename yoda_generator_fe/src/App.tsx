@@ -18,6 +18,7 @@ const App: React.FC = () => {
       <h1>Yoda Speech Generator</h1>
       <div className="translator-container">
         <div className="yoda-image-container">
+          {/* Art by Brandi Mosca (pinterest: https://www.pinterest.com/bjmosca/baby-yoda/) */}
           <img src="/baby_yoda.jpg" alt="Yoda" style={{ transform: "scaleX(-1)" }} />
         </div>
         <div className="input-output-area">
